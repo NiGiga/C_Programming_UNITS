@@ -13,3 +13,29 @@ Esempio di output.
 > Il numero minimo inserito è = -4*/
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+void main(){
+
+    int count=0, number=0, max=0, min=0;
+
+    printf("Inserisci un numero (x_i):");
+    scanf("%d", &number);
+    count+=1;
+    max= number;
+    min= number;
+
+    while(number!=0){
+        printf("Inserisci un numero (x_i):");
+        scanf("%d", &number);
+
+        if(number>max) max=number;
+        if(number<min) min=number;
+    }
+
+    if(count>=1){
+        printf("Il numero massimo inserito è = %d\n", max);
+        printf("Il numero minimo inserito è = %d\n", min);
+    }
+    else printf("Non hai inserito dei numeri\n");
+}
