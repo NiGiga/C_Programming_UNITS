@@ -1,0 +1,20 @@
+#include <math.h>
+#include <stdio.h>
+  
+// Function to calculate distance
+
+float distance(int x1, int y1, int x2, int y2){
+
+    printf("insert values");
+    scanf("%d %d %d %d", &x1, &x2, &y1, &y2);
+    // Calculating distance
+    return sqrt(pow(x2 - x1, 2)
+                + pow(y2 - y1, 2) * 1.0);
+}
+  
+// Driver Code
+int main()
+{
+    printf("%.2f", distance);
+    return 0;
+}
