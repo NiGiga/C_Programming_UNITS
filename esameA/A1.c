@@ -6,6 +6,7 @@ Il calcolo della potenza e della sommatoria in sn deve utilizzare solamente funz
 Esempio di calcolo: per n = 3 vale sn = 48, per n = 6 vale sn = 1344, etc.
 Suggerimento. Dovendo le implementazioni essere ricorsive, non è ovviamente ammesso l’uso della funzione pow, e di soluzioni analitiche esplicite per il calcolo dei termini di sn.
 
+SOMMATORIA
 */
 
 #include <stdio.h>
