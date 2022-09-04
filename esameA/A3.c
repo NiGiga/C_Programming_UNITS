@@ -25,6 +25,7 @@ int potenza(int base, int esponente)
     return base * potenza(base, esponente - 1);
 }
 
+// mi = 1/n * sommatoria x_i
 double mi(int a[], int dim)
 {
     int somma = 0;
@@ -35,7 +36,7 @@ double mi(int a[], int dim)
 
     return somma / dim;
 }
-
+// succ = [sommatoria di (x_i - mi)]/n
 float sucessione(int a[], int dim)
 {
     double lol = 0.0;
